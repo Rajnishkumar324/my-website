@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background-image: url("./assets/images/bg.jpg");
+    height: 100%;
+    width: 100vw;
+    background-repeat: no-repeat;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+/* Designing nav Bar */
+nav{
+    display: flex;
+    background-color: blueviolet;
+}
+
+.line{
+    width: 50px;
+    height: 4px;
+    background-color: black;
+    margin: 12px;
+}
+
+.nav_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%;
+}
+
+.nav_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left: 30%;
+}
+
+#nav_right_button{
+    border: none;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+#nav_right_button, input{
+    height: 30px;
+}
+
+#search_icon{
+    height: 22px;
+    width: 30px;
+    border: none;
+}
+
+#search_input{
+    border: solid 1px blue;
+}
+
+.search_div{
+    display: flex;
+    align-items: center;
+    border-color: blue;
+}
+
+.aditya{
+    text-align: center;
+    padding-top: 50px;
+    width: 60%;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.71);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.38);
+
+}
+
+.aditya p{
+    font-size: 25px;
+    font-weight: 1000;
+    color: red;
+}
+
+.email{
+    text-align: center;
+    padding-top: 25px;
+    background-color: aqua;
+}
+
+#placeholder{
+    width: 200px;
+
+}
+
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2vh;
+}
+
+.items iframe{
+    height: 35vh;
+    /* width: 30vw; */
+}
+
+h3{
+    margin-left: 30px;
+    font-size: x-large;
+    color: blue;
+}
+
+.image_section{
+    height: 65vh;
+}
+
+.Second {
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+li img {
+    padding: 25px;
+}
+
+.separation{
+    height: 2vh;
+    width: 100vw;
+    background-color: brown;
+    margin-top: px;
+    margin-bottom: 50px;
+}
+#get_started{
+    width: 100px;
+    height: 30px;
+    background-color: burlywood;
+}
